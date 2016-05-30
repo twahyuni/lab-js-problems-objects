@@ -20,6 +20,14 @@ var Movie = function (info) {
     this.seatType = seatType;
     this.price = price;
     this.timeOfPlay = timeOfPlay;
+    this.used = false;
+    this.useTicket = function() {
+      if (this.used) {
+        console.log ("This ticket is already used");
+      } else {
+        console.log ("Welcome");
+      }
+    }
   }
 
   this.generateTicket = function(seatCord, seatType) {
