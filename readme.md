@@ -4,7 +4,7 @@ You are to create a ticketing machine for a cinema, more specifically just 1 mov
 
 To start, create an **object contructor** for a specific movie called `var Movie`.
 
-The object contructor should have these properties (how do we pass these information to the contructor?):
+The object constructor should have these properties (how do we pass these information to the contructor?):
 
   1. title (string)
   2. timeOfPlay (number ex: 1600)
