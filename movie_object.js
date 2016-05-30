@@ -25,6 +25,7 @@ var Movie = function (info) {
       if (this.used) {
         console.log ("This ticket is already used");
       } else {
+        this.used = true;
         console.log ("Welcome");
       }
     }
@@ -67,3 +68,5 @@ var ticketA = civilWar.generateTicket([0,2],"adult");
 civilWar.getRevenue();
 var ticketB = civilWar.generateTicket([2,2],"adult");
 civilWar.getRevenue();
+ticketA.useTicket();
+ticketA.useTicket();
